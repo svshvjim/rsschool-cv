@@ -26,6 +26,11 @@ A well-organized and highly motivated looking for opportunity to learn and devel
 
 ## **Code examples**
 
+```
+function greet() {
+    return "hello world!";
+    }
+```
 
 
 ***
