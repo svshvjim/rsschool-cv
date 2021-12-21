@@ -9,7 +9,7 @@ ___
 
 ***
 
-## **About me**
+## **About me:**
 
 A well-organized and highly motivated looking for opportunity to learn and develop new skills in IT
 
@@ -24,14 +24,13 @@ A well-organized and highly motivated looking for opportunity to learn and devel
 ***
 
 
-## **Code examples**
+## **Code examples:**
 
 ```
 function greet() {
     return "hello world!";
     }
 ```
-
 
 ***
 
@@ -50,6 +49,6 @@ After finishing an Academy in 2016 received position of Security Officer on expe
 ***
 
 
-## **Language**
+## **Language:**
 Russian - native\
 English - A1
