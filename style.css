@@ -1,0 +1,14 @@
+html {
+    font-family: Roboto, sans-serif
+}
+
+h1 {
+    color: rgb(62, 62, 146);
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color:rgb(24, 24, 26);
+    font-size: 1em;
+    margin-bottom: 1em;
+}
