@@ -12,3 +12,8 @@ h2 {
     font-size: 1em;
     margin-bottom: 1em;
 }
+.flex1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
