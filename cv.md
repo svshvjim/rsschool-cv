@@ -49,6 +49,6 @@ After finishing an Academy in 2016 received position of Security Officer on expe
 ***
 
 
-## **Language:**
+## **Languages:**
 Russian - native\
 English - A1
