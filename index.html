@@ -1,84 +1,112 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cherviakov Alexandr CV</title>
+    <title>CV</title>
 </head>
+
 <body>
-    <div class="wrapleft">
-   <div class="leftpart">
-<h1>Cherviakov Alexandr</h1> 
-  
-<div class="leftpart">
-<img src="Me.jpg" alt="Photo" height= 150px width="120"> 
+
+    <header class = "header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link"> Contacts </a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link"> About me </a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link"> Skills </a></li>
+              <li class="nav-item"><a href="#code" class="nav-link"> Code Example</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link"> Courses </a> </li> 
+              <li class="nav-item"><a href="#projects" class="nav-link"> My projects </a></li>
+              <li class="nav-item"><a href="#education" class="nav-link"> Education </a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link"> Languages </a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <main class="main-container">
+<section class="section" id="profile">
+<h1 class="section-title">Alexandr Cherviakov</h1>
+<div class="avatar">
+<img class="avatar" src="/assets/img/Me.jpg" alt="my photo">
 </div>
-<div class="leftpart">
-    <ul> 
-    <h2>Contacts:</h2>
+</section>
+
+<section class="section" id="contacts">
+<h2 class="section-title">Contacts</h2>
+    <ul>
     <li>Discord: svshv_jim#1648</li>
-    <li>Telegram: <a href="https://t.me/svshv_jim">@svshv_jim</a></li>
-    <li>Email: <a href="malito:djimmdjimm@gmail.com">djimmdjimm@gmail.com</a> </li>
+    <li>Telegram: <a class="link" href="https://t.me/svshv_jim">@svshv_jim</a></li>
+    <li>Email: <a class="link" href="malito:djimmdjimm@gmail.com">djimmdjimm@gmail.com</a> </li>
     <li> Tel: +79780853082</li>
     </ul>
-</div>
+</section>
 
-<div class="leftpart">
-    <ul>
-   <h2> Education: </h2>
- <li>2011 - 2016: Kherson State Maritime Academy Bachelor in Navigation </li>
-<li>2021 -... RS School JavaScript/Front-end development</li>
-</ul>
-</div>
-<div class="leftpart">
-    <ul>
-        <h2>Languages: </h2>
+<section class="section" id="summary">
+<h2 class="section-title">About me</h2>
 
-<li>Russian - native</li>
-<li> English - A1</li>
-    </ul>
-    </div>
-</div>
-
-<div class="wrapright">
-<div class="rightpart">
-    <h2>About me:</h2>
+<p>
     A well-organized and highly motivated looking for opportunity to learn and develop new skills in IT
-    </div>
-    <div class="rightpart">
-     <h2>Work experience: </h2>
-     <ul>In 2008 start career at sea as Ordinary Seamen on passenger Ship in Classic International Cruises LTD. In 2010 changed position to Fireman. 
-        After finishing an Academy in 2016 received position of Security Officer on expeditionary vessel "MS HAMBURG" with main duties:
-    <li>Enhance security awareness and vigilance on board ship</li>
-    <li>Training of ship's crew</li>
-    <li>Coordinate with ship board personnel and port authorities to carry out all ship operations with utmost security</li>
-    <li>Ensure that the ship security equipment is properly operated, tested, calibrated, and maintained</li>
-    <li>Conducting security inspections at regular intervals of time to ensure that proper security steps are taken</li>
-    </ul>
-    </div>
-    <div class="rightpart">
-        <h2>Code examples:</h2>
-        <pre class="codetext">
-            function greet() {
-                return "hello world!";
-                }
-            </pre>
-        <pre class="codetext">
-            multiply = function (a, b) {
-                return a * b;
-              }
-            </pre>
-        </div>
-</div>
+</p>
+</section>
 
+<section class="section" id="skills">
+<h2 class="section-title">Skills</h2>
+    <ul>
+        <li>Basic JS</li>
+        <li>Basic HTML & CSS</li>
+    </ul>
+</section>
+
+<section class="section" id="code">
+
+<h2 class="section-title">Code Example</h2>
+<pre>
+    function greet() {
+        return "hello world!";   
+      }
+</pre>
+<pre>
+    multiply = function(a, b) {  
+        return a * b;
+      }
+    </pre>
+</section>
+<section class="section" id="courses">
+<h2 class="section-title">Courses</h2>
+<p>
+    2021 -... RS School JavaScript/Front-end development
+</p>
+</section>
+<section class="section" id="projects">
+    <h2 class="section-title"> My projects</h2>
+   <p>
+     <a class="link" href="https://svshvjim.github.io/rsschool-cv">My first project</a>
+   </p>
+</section>
+<section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+   <p>
+    2011 - 2016: Kherson State Maritime Academy Bachelor in Navigation 
+   </p>
+</section>
+<section class="section" id="languages">
+    <h2 class="section-title">Languages</h2>
+    <ul>
+        <li>Russian - native</li>
+        <li> English - A1</li>
+    </ul>
+</section>
+    </main>
+    <footer>
+        Powered by <img src="https://rs.school/images/rs_school_js.svg" height="20px" alt="rs school"> <a href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a>
+    </footer>
 
 
 </body>
-
-<footer>
-    <div class="footer">
-    <p>Powered by <img src="https://rs.school/images/rs_school_js.svg" height="20px" alt="rs school"> <a href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a></p>
-</div>
-</footer>
 </html>
