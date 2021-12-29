@@ -102,7 +102,11 @@ pre {
     padding: 5px;
     background:#c9c9c9;
 }
- 
+
+.rs_pic {
+  height: 20px;
+} 
+
 @media (max-width: 768px) {
     
     .section {
