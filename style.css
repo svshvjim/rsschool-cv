@@ -34,10 +34,8 @@ body {
 
 .header {
     display: flex;
-    background-color: rgb(192, 156, 191);
-   
-    
-    }
+    background-color: rgb(192, 156, 191)
+  }
 
 .nav-list {
     display: flex;
