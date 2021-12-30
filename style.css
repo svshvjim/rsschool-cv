@@ -102,18 +102,10 @@ pre {
     padding: 5px;
     background:#c9c9c9;
 }
-<<<<<<< HEAD
  
 .rs_pic {
   height: 20px;
 }
-=======
-
-.rs_pic {
-  height: 20px;
-} 
-
->>>>>>> 1398e6320e7ae66ab4b16074f542879feca9ee1e
 @media (max-width: 768px) {
     
     .section {
